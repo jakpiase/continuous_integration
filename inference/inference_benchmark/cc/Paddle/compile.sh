@@ -27,7 +27,7 @@ if [ $# -ge 4 ]; then
     USE_TENSORRT=$4
 fi
 
-LIB_DIR="/workspace/paddle_inference_install_dir"
+LIB_DIR="/home/jakub/Paddle/build/paddle_inference_install_dir"
 if [ $# -ge 5 ]; then
     LIB_DIR=$5
 fi
